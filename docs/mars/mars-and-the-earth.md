@@ -74,21 +74,29 @@
 ## 火星日照
 
 
-火星的日照水平是地球的 43%，是可观的能源，可以支撑农业，也可以支撑一些化工生产[@Appelbaum1990-pd][^Abel2022][@Tack2021-so]。
+火星的日照水平是地球的 43%，是可观的能源，可以支撑农业，也可以支撑一些化工生产[@Appelbaum1990-pd][^Abel2022][@Tack2021-so][@Landis2004-ih]。
 
 
-=== "火星表面太阳能分布"
+=== "火星表面太阳能"
 
     根据位置和天气的不同，火星表面太阳能可达约 $400 \mathrm{W/m^2/day}$[^solar-panel-marspedia][@Appelbaum1990-pd].
 
-    作为对照，一个 iPhone 14 Pro 的电池容量大约为 12 Wh[^iphone-battery]. 假定太阳能电池板的效率是 0.25，每平方米太阳能电池板，每天积累下来的电力大约有 0.5 kWh，大致可以充满 42 个 iPhone 14 Pro。更多的估算可以[参考此处](https://marspedia.org/Solar_panel)。
+    作为对照，一个 iPhone 14 Pro 的电池容量大约为 12 Wh[^iphone-battery]. 假定太阳能电池板的效率是 0.25，每平方米太阳能电池板，每天积累下来的电力大约有 0.5 kWh，大致可以充满 42 个 iPhone 14 Pro。
 
+    更多的估算可以[参考此处](https://marspedia.org/Solar_panel)。
+
+=== "火星上 Jezero Crater 附近的太阳辐射"
+
+    [Jezero Crater](https://en.wikipedia.org/wiki/Jezero_(crater)#/media/File:Jezero_crater_%E2%80%94_the_landing_site_for_NASA%E2%80%99s_Mars_2020_mission.png) 处的光通量[@Abel2022-sj]
+
+    ![](assets/mars-and-the-earth/solar-flux-jezero-crater.png)
 
 === "Synthetic Biology"
 
     合成生物学可以帮助我们改造植物[@Llorente2018-qe]
 
     ![](assets/mars-and-the-earth/synbio-mars.png)
+
 
 
 
