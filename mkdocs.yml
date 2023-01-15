@@ -1,0 +1,86 @@
+# mkdocs.yml
+site_name: "Space Settlement"
+site_author: InterImm
+site_description: "Space Settlement Science and Engineering"
+site_url: "https://interimm.github.io/space-settlement"
+repo_url: "https://github.com/interimm/space-settlement"
+edit_uri: "blob/master/docs/"
+repo_name: "interimm/space-settlement"
+
+
+theme:
+  name: "material"
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+  # features:
+  #   - navigation.indexes
+
+  # Default values, taken from mkdocs_theme.yml
+  language: zh
+  features:
+    # - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+  palette:
+    - scheme: default
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/logo/InterImm_1024X1024.png
+  logo: assets/logo/InterImm_1024X1024.png
+
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - pymdownx.emoji
+  - pymdownx.magiclink
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: "¤"
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - autorefs
+  - search
+  - git-authors
+  - bibtex:
+      bib_dir: "docs/assets/references"
+
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - "去太空生活": index.md
+  - "火星":
+    - mars/index.md
+    - "火星与地球": mars/mars-and-the-earth.md
+  - "🔗 星际移民中心": "https://interimm.org"
