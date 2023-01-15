@@ -84,4 +84,6 @@ nav:
     - mars/index.md
     - "火星与地球": mars/mars-and-the-earth.md
     - "火星天气与气候": mars/martian-weather-climate.md
+    - "火星地理": mars/mars-geo.md
+    - "火星 FAQ": mars/mars-faq.md
   - "🔗 星际移民中心": "https://interimm.org"
